@@ -1,0 +1,27 @@
+.quoteList__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+}
+
+.quote__profil{
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(45, 45, 45);
+    margin: 1rem;
+    border-radius: 20px;
+}
+.quote__profil p {
+  margin:5px;
+}
+.quote__profil p:first-of-type {
+  margin: 5px;
+  font-size: 1.3rem;
+}
+.quotes__infos{
+  font-style: italic;
+}
